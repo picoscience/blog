@@ -61,6 +61,27 @@
     color: #ffffff;
 }
 /* footer */
+/* home */
+.inicio {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1c2c6c;
+}
+.inicio-cont {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    top: 45%;
+    transform: translateY(-45%);
+}
+.button-inicio{
+    font-size: 22px;
+    margin-top: 50px;
+    width: 140px;
+    border-radius: 5px;
+    border: solid 1px #000000;
+}
+/* home */
 /* galería */
 .container-galeria {
     display: flex;

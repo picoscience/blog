@@ -9,3 +9,11 @@ def galeria(request):
         'app/galeria.html',
         context={},
     )
+
+
+def home(request):
+    return render(
+        request,
+        'app/home.html',
+        context={},
+    )
