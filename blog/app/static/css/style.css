@@ -3,7 +3,7 @@
 /* header */
 .header{
     background-color: #1c2c6c;
-    height: 100px;
+    height: 130px;
 }
 .title-header{
     color: #ffffff;
@@ -30,6 +30,242 @@
     transform: translate(-33px, 1px) scaleX(-1);
 }
 /* header */
+/* Menu */
+.headerMenu {
+    background-color: #1c2c6c;
+    height: 130px;
+    margin-bottom: -2px;
+}
+.img-headerMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 130px;
+    width: auto;
+}
+.menu1{    
+    background-color: #1c2c6c;
+}
+.title-video-menu{
+    font-size: 36px;
+    font-family: blippo;
+    color: #ffffff;
+}
+.video-menu{
+    width: 100% !important;
+    height: auto !important;
+}
+.row-pj{
+    display: block;
+    position: relative;
+}
+.row-pj-1 {
+    height: 20%;
+}  
+.row-pj-2 {
+    height: 80%;
+}  
+.title-personaje {
+    color: #73d3a3;
+    font-weight: bold;
+    font-family: blippo;
+}
+.menu2 a{    
+    text-decoration: none;
+    color: #000000;
+    transition: color ease 0.3s;
+}
+.menu2 a:hover{    
+    color: #98d9f0;
+}
+@media (max-width: 576px) {  /* Tamaño sm */
+    .title-personaje {
+        font-size: 42px;  /* Ajusta el tamaño de fuente para sm */
+    }
+    .menu2{
+        height: 450px;
+    }
+    .menu2 a{
+        margin-top: 35px;
+        font-size: 19px;
+        font-family: blippo;
+    }
+    .pre-menu{
+        margin-top: 40px;
+        height: 19px;
+    }
+    .description{
+        font-weight: 500;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+    .title-header{
+        transform: translate(35px,0px);
+    }   
+    .contacto-form input, .contacto-form textarea{
+        font-size: 26px;
+        color: #000000;
+    }
+    .title-contacto{
+        font-size: 28px;
+    }
+    .title-header{
+        font-size: 30px;
+    }
+    .contacto-form{
+        margin-top: 25px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {  /* Tamaño md */
+    .title-personaje {
+        font-size: 60px;  /* Ajusta el tamaño de fuente para md */
+    }
+    .menu2{
+        height: 500px;
+    }
+    .menu2 a{
+        margin-top: 45px;
+        font-size: 30px;
+        font-family: blippo;
+    }
+    .pre-menu{
+        margin-top: 52px;
+        height: 30px;
+    }
+    .contacto-form input, .contacto-form textarea{
+        font-size: 28px;
+        color: #000000;
+    }
+    .title-contacto{
+        font-size: 34px;
+    }
+    .contacto-form{
+        margin-top: 25px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {  /* Tamaño lg */
+    .title-personaje {
+        font-size: 70px;  /* Ajusta el tamaño de fuente para lg */
+    }
+    .menu2{
+        height: 600px;
+    }
+    .menu2 a{
+        margin-top: 55px;
+        font-size: 38px;
+        font-family: blippo;
+    }
+    .pre-menu{
+        margin-top: 64px;
+        height: 38px;
+    }
+    .description{
+        font-weight: 500;
+        margin-top: 55px;
+        font-size: 21px;
+    }
+    .contacto-form input, .contacto-form textarea{
+        font-size: 36px;
+        color: #000000;
+    }
+    .title-contacto{
+        font-size: 40px;
+    }
+    .contacto-form{
+        margin-top: 70px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {  /* Tamaño xl */
+    .title-personaje {
+        font-size: 76px;  /* Ajusta el tamaño de fuente para xl */
+    }
+    .menu2{
+        height: 700px;
+    }
+    .menu2 a{
+        margin-top: 65px;
+        font-size: 46px;
+        font-family: blippo;
+    }
+    .pre-menu{
+        margin-top: 78px;
+        height: 46px;
+    }
+    .description{
+        font-weight: 500;
+        margin-top: 65px;
+        font-size: 24px;
+    }
+    .contacto-form input, .contacto-form textarea{
+        font-size: 40px;
+        color: #000000;
+    }
+    .title-contacto{
+        font-size: 46px;
+    }
+    .contacto-form{
+        margin-top: 120px;
+    }
+}
+@media (min-width: 1200px) {  /* Tamaño xxl */
+    .title-personaje {
+        font-size: 84px;  /* Ajusta el tamaño de fuente para xxl */
+    }
+    .menu2{
+        height: 800px;
+    }
+    .menu2 a{
+        margin-top: 65px;
+        font-size: 52px;
+        font-family: blippo;
+    }
+    .pre-menu{
+        margin-top: 78px;
+        height: 52px;
+    }
+    .description{
+        font-weight: 500;
+        margin-top: 65px;
+        font-size: 27px;
+    }
+    .contacto-form input, .contacto-form textarea{
+        font-size: 40px;
+        color: #000000;
+    }
+    .title-contacto{
+        font-size: 46px;
+    }
+    .contacto-form{
+        margin-top: 120px;
+    }
+}
+.personaje {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+.img-personaje {
+    position: absolute;
+    transform: translate(0%,9%);
+    max-height: 100%;
+    width: auto;
+    height: 100%;
+}
+.cont-personaje{
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+.menu2{
+    background-image: url('../media/1_fondo.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Menu */
 /* footer */
 .footer{
     background-color: #1c2c6c;
@@ -75,11 +311,27 @@
     transform: translateY(-45%);
 }
 .button-inicio{
+    background: linear-gradient(to right, #73d3a37e, #1c2c6c27);
     font-size: 22px;
     margin-top: 50px;
     width: 140px;
-    border-radius: 5px;
-    border: solid 1px #000000;
+    border-radius: 10px;
+    border: solid 2px #000000;
+    transition: all linear 0.3s;
+    box-shadow: 2px 2px 0px 1px rgba(0,0,0,0.75);
+}
+.button-inicio:hover{
+    background: linear-gradient(to right, #1c2c6c27, #73d3a37e);
+}
+.button-inicio a span{
+    transition: color linear 0.3s;
+}
+.button-inicio:hover a span{
+    color: #0c132f;
+}
+.button-inicio a{
+    color: #000000;
+    text-decoration: none;
 }
 /* home */
 /* galería */
@@ -112,4 +364,124 @@
     border-radius: 10px;
 }
 /* galería */
+/* contacto */
+.cont-contacto{
+    position: relative;
+}
+.cont-contacto-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.contacto-img{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    max-width: 300px;
+    position: relative;
+    width: 70%;
+    height: auto;
+}
+.contacto-form{
+    height: 100%;
+    display: block;
+    align-self: start;
+    justify-items: center;
+}
+.title-contacto{
+    font-family: blippo;
+    color: #73d3a3;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: -50px;
+    margin-right: -50px;
+}
+.submitbut button{
+    border-radius: 5px;
+    width: 180px;
+    border: solid 2px #0c132f;
+    box-shadow: 5px 5px 1px 0px #0c132f;
+    background-color: #1c2c6c;
+    transition: box-shadow linear 0.1s;
+}
+.submitbut button:hover{
+    border: solid 2px #18255c;
+    box-shadow: 2px 2px 2px 1px #0c132f;
+}
+.submitbut button h1::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #9bdcf4;
+    top: calc(50% - 15px);
+    transform: translate(115px,0px);
+}
+.submitbut button h1::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #9bdcf4;
+    top: calc(50% - 15px);
+    transform: translate(15px,0px);
+}
+.submitbut button h1{
+    text-shadow: #9bdcf4;
+    font-family: blippo;
+    color: #ffffff;
+    position: relative;
+    font-size: 32px;
+    transform: translate(-27px,5px);
+}
+.contacto-form div{
+    margin-bottom: 15px;
+}
+.contacto-form textarea{
+    height: 180px;
+    resize: none;
+}
+.contacto-1 input,
+.contacto-2 input,
+.contacto-3 textarea{
+    transition: padding linear 0.15s, background-color linear 0.15s;
+    border-radius: 5px;
+    border: solid 1px #0c132f;
+}
+.contacto-1 input:focus,
+.contacto-2 input:focus,
+.contacto-3 textarea:focus {
+    padding: 10px;
+    outline: none;
+    box-shadow: none;
+    background-color: #f5f5f5;
+}
+/* contacto */
+
+.proyectos{
+    background-image: url('../media/fondoproye.png');    
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+.title-proyecto{
+    margin-top: 50px;
+}
+.title-proyecto div span{
+    font-size: 40px;
+    color: #18255c;
+    font-family: blippo;
+}
+.pre-menu1{
+    margin-top: -20px;
+    height: 40px;
+}
+.end-proyecto{
+    margin-bottom: 80px;
+}
   

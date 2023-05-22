@@ -17,3 +17,28 @@ def home(request):
         'app/home.html',
         context={},
     )
+
+
+def menu(request):
+    return render(
+        request,
+        'app/menu.html',
+        context={},
+    )
+
+
+def proyectos(request):
+    return render(
+        request,
+        'app/proyectos.html',
+        context={},
+    )
+
+
+def contacto(request):
+    return render(
+        request,
+        'app/contacto.html',
+        context={},
+    )
+
